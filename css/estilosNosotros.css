@@ -1,0 +1,42 @@
+.fotoNosotros {
+  background-image: url(../assets/img/open.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.tituloNosotros h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+.tituloNosotros h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+}
+
+.tituloColorNosotros {
+  color: rgb(221, 90, 15);
+}
+
+.carrousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselItem img {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+}

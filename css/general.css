@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: linear-gradient(
+    to right top,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000
+  );
+  color: rgb(0, 0, 0);
+}
+
+.listaItem {
+  list-style: none;
+}
+
+.backgrounImageContainer {
+  height: 100vh;
+  background-image: url(../assets/img/Hamburguesa\ 4.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+}
+
+.header div a {
+  width: 30%;
+}
+
+.logo {
+  width: 30%;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.navegacion ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+}
+
+.linkNavegacion a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.linkNavegacion:hover {
+  color: #000;
+}
+
+.footer {
+  background-image: linear-gradient(
+    to top,
+    #000000,
+    #4a2326,
+    #914334,
+    #d17131,
+    #ffad14
+  );
+  height: 45vh;
+}
+
+.headerContacto h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+.headerContacto p {
+  font-size: 1.5rem;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contenedorLogo {
+  width: 40%;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.sectionCards {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionCards h2 {
+  font-size: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
+.sectionCards p {
+  font-size: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
+.mainFooter {
+  background-color: #000;
+  padding: 4em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainFooter .footerContainer div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkRedes {
+  text-decoration: none;
+}
+.icon {
+  color: white;
+}
+/*galería*/
+
+/*Nosotros*/
+
+.linkNavegacion {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.colorDerechosNosotros {
+  color: white;
+}
+/*promos*/
+
+.iconInsta {
+  font-size: 40px;
+  color: #e4405f;
+}
+.iconWas {
+  color: #25d366;
+}

@@ -1,0 +1,19 @@
+.promoBurger {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.promoBurger img {
+  width: 30%;
+}
+
+.linkNavegacionPromo {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.linkNavegacionPromo:hover {
+  color: #0d6efd;
+}

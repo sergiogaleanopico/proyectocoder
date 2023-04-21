@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300;1,700&display=swap');
+
+.main {
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #4a2326,
+    #914334,
+    #d17131,
+    #ffad14
+  );
+  padding: 5em;
+}
+
+.tituloYParrafoMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parrafoYTitulo {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parrafoYTitulo h1 {
+  font-size: 4rem;
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+.parrafoYTitulo p {
+  font-size: 1.5rem;
+}
+
+.sectionCards {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.card-title {
+  text-align: center;
+  color: #fff !important;
+  margin-bottom: 1em !important;
+}
+
+.card {
+  border-radius: 4px;
+  transition: all 0.5s ease-out;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  top: 0;
+}
+
+.card:hover {
+  box-shadow: 0 6px 10px 0 rgb(0 0 0 / 33%);
+  top: -6px;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}

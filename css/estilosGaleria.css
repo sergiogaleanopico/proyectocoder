@@ -1,0 +1,30 @@
+.fotoBodyGaleria {
+  background-image: url(../assets/img/Hamburguesa.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.cardGaleria {
+  padding: 3em;
+}
+
+.cardGaleria h3 {
+  color: #fff;
+}
+
+.cardGaleria img {
+  width: 80%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.tituloYParrafoGaleria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
